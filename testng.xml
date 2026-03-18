@@ -9,6 +9,7 @@
 		<parameter name="browser" value="chrome" />
 		<classes>
 			<class name="testcase.login_test" />
+			<class name="testcase.test_Signup" />
 		</classes>
 	</test> <!--
 	Test -->
@@ -24,6 +25,7 @@
 		<parameter name="browser" value="edge" />
 		<classes>
 			<class name="testcase.login_test" />
+			<class name="testcase.test_Signup" />
 		</classes>
 	</test>
 </suite> <!--

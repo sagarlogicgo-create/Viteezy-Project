@@ -1,36 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-17T13:00:03 IST" name="Suite" finished-at="2026-03-17T13:00:21 IST" duration-ms="18108">
+  <suite started-at="2026-03-18T17:39:41 IST" name="Suite" finished-at="2026-03-18T17:40:40 IST" duration-ms="58937">
     <groups>
     </groups>
-    <test started-at="2026-03-17T13:00:03 IST" name="ChromeTest" finished-at="2026-03-17T13:00:21 IST" duration-ms="18065">
+    <test started-at="2026-03-18T17:39:41 IST" name="EdgeTest" finished-at="2026-03-18T17:40:11 IST" duration-ms="29140">
       <class name="testcase.login_test">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testcase.login_test@1e4f4a5c]" started-at="2026-03-17T13:00:03 IST" name="setup" finished-at="2026-03-17T13:00:06 IST" duration-ms="2884" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="Logintest()[pri:0, instance:testcase.login_test@1e4f4a5c]" started-at="2026-03-17T13:00:06 IST" name="Logintest" finished-at="2026-03-17T13:00:20 IST" duration-ms="14715" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Logintest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testcase.login_test@1e4f4a5c]" started-at="2026-03-17T13:00:20 IST" name="teardown" finished-at="2026-03-17T13:00:21 IST" duration-ms="410" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- testcase.login_test -->
-    </test> <!-- ChromeTest -->
-    <test started-at="2026-03-17T13:00:03 IST" name="EdgeTest" finished-at="2026-03-17T13:00:21 IST" duration-ms="18108">
-      <class name="testcase.login_test">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testcase.login_test@3576ddc2]" started-at="2026-03-17T13:00:03 IST" name="setup" finished-at="2026-03-17T13:00:06 IST" duration-ms="3389" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testcase.login_test@163370c2]" started-at="2026-03-18T17:39:42 IST" name="setup" finished-at="2026-03-18T17:39:44 IST" duration-ms="2333" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -41,15 +18,80 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Logintest()[pri:0, instance:testcase.login_test@3576ddc2]" started-at="2026-03-17T13:00:06 IST" name="Logintest" finished-at="2026-03-17T13:00:20 IST" duration-ms="14231" status="PASS">
+        <test-method signature="Logintest()[pri:0, instance:testcase.login_test@163370c2]" started-at="2026-03-18T17:39:44 IST" name="Logintest" finished-at="2026-03-18T17:39:56 IST" duration-ms="11836" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Logintest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testcase.login_test@3576ddc2]" started-at="2026-03-17T13:00:20 IST" name="teardown" finished-at="2026-03-17T13:00:21 IST" duration-ms="445" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testcase.login_test@163370c2]" started-at="2026-03-18T17:39:56 IST" name="teardown" finished-at="2026-03-18T17:39:56 IST" duration-ms="320" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- testcase.login_test -->
+      <class name="testcase.test_Signup">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testcase.test_Signup@51bf5add]" started-at="2026-03-18T17:39:56 IST" name="setup" finished-at="2026-03-18T17:39:58 IST" duration-ms="1655" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="signupTest()[pri:0, instance:testcase.test_Signup@51bf5add]" started-at="2026-03-18T17:39:58 IST" name="signupTest" finished-at="2026-03-18T17:40:10 IST" duration-ms="12436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testcase.test_Signup@51bf5add]" started-at="2026-03-18T17:40:10 IST" name="teardown" finished-at="2026-03-18T17:40:11 IST" duration-ms="498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testcase.test_Signup -->
     </test> <!-- EdgeTest -->
+    <test started-at="2026-03-18T17:39:41 IST" name="ChromeTest" finished-at="2026-03-18T17:40:40 IST" duration-ms="58937">
+      <class name="testcase.login_test">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testcase.login_test@465232e9]" started-at="2026-03-18T17:39:42 IST" name="setup" finished-at="2026-03-18T17:40:15 IST" duration-ms="33152" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Logintest()[pri:0, instance:testcase.login_test@465232e9]" started-at="2026-03-18T17:40:15 IST" name="Logintest" finished-at="2026-03-18T17:40:26 IST" duration-ms="11564" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logintest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testcase.login_test@465232e9]" started-at="2026-03-18T17:40:26 IST" name="teardown" finished-at="2026-03-18T17:40:27 IST" duration-ms="340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testcase.login_test -->
+      <class name="testcase.test_Signup">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testcase.test_Signup@6cc4cdb9]" started-at="2026-03-18T17:40:27 IST" name="setup" finished-at="2026-03-18T17:40:28 IST" duration-ms="1180" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="signupTest()[pri:0, instance:testcase.test_Signup@6cc4cdb9]" started-at="2026-03-18T17:40:28 IST" name="signupTest" finished-at="2026-03-18T17:40:40 IST" duration-ms="12355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testcase.test_Signup@6cc4cdb9]" started-at="2026-03-18T17:40:40 IST" name="teardown" finished-at="2026-03-18T17:40:40 IST" duration-ms="300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testcase.test_Signup -->
+    </test> <!-- ChromeTest -->
   </suite> <!-- Suite -->
 </testng-results>

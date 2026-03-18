@@ -11,8 +11,6 @@ import base_test.base_Class;
 
 public class login_test extends base_Class {
 		
-	
-	
 @Test
 
 public void Logintest() {
