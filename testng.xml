@@ -9,24 +9,27 @@
 		<parameter name="browser" value="chrome" />
 		<classes>
 			<class name="testcase.login_test" />
-			<class name="testcase.test_Signup" />
+			<!-- <class name="testcase.test_Signup" /> -->
+			<class name="testcase.checkHomeelement" />
 		</classes>
-	</test> <!--
-	Test -->
-<!--
-	<test name="FirefoxTest">
+	</test>
+
+	<!-- <test name="FirefoxTest">
 		<parameter name="browser" value="firefox" />
 		<classes>
 			<class name="testcase.login_test" />
+			<class name="testcase.test_Signup" /> 
+			<class name="testcase.checkHomeelement" />
 		</classes>
-	</test>
--->
+	</test> 
+
 	<test name="EdgeTest">
 		<parameter name="browser" value="edge" />
 		<classes>
 			<class name="testcase.login_test" />
-			<class name="testcase.test_Signup" />
+			 <class name="testcase.test_Signup" /> 
+			<class name="testcase.checkHomeelement" />
 		</classes>
-	</test>
-</suite> <!--
-Suite -->
+	</test>-->
+</suite> 
+
